@@ -1,0 +1,103 @@
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+.input {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-number {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #00b418;
+  background-color: #4fb85d56;
+  color: black;
+}
+
+.input-number:focus {
+  outline: none;
+  border-color: #00b418;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.card {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-body {
+  font-size: 16px;
+}
+
+.card-footer {
+  font-size: 14px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: large;
+}
