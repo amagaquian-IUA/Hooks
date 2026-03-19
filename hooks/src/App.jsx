@@ -1,10 +1,17 @@
+import { useState, useEffect, useContext } from 'react'
+
 import Button from './components/common/Button'
 import Label from './components/common/Label';
-import { useState, useEffect } from 'react'
+import { ThemeContext } from './context/Theme';
+
+
 function App() {
 
   const [contador, setContador] = useState(0);
   const [users, setUsers] = useState([])
+
+  /* Consumo del contexto */
+  const { theme, handlerTheme, showTheme } = useContext(ThemeContext)
 
 
   const getUsers = () => {
@@ -47,6 +54,9 @@ function App() {
   return (
     <>
 
+      <h1>Tema actual: {theme}</h1>
+      <Button title="Cambiar tema" variant={"btn-primary"} handle={handlerTheme} />
+      <Button title="Ver tema" variant={"btn-secondary"} handle={showTheme} />
       <div style={{ display: "flex", gap: "10px", justifyContent: "center" }}>
         <Button title="+" variant={"btn-primary"} handle={() => { operaciones(contador, "sumar") }} />
         <Label value={contador} />
