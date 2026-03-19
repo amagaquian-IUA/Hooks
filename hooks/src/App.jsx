@@ -13,7 +13,6 @@ function App() {
     }
   }
 
-
   return (
     <div style={{ display: "flex", gap: "10px", justifyContent: "center" }}>
       <Button title="+" variant={"btn-primary"} handle={() => { operaciones(contador, "sumar") }} />
